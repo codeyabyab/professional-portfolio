@@ -4,6 +4,7 @@ import Timeline from "./components/Timeline";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Contribution from "./components/Contribution";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -76,6 +77,7 @@ function App() {
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
+          <Contribution/>
           <Timeline />
           <Contact />
           <Footer />
