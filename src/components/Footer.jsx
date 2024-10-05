@@ -1,4 +1,5 @@
 import React from "react";
+import Tooltip from "./Tooltip";
 
 function Footer() {
   return (
@@ -6,12 +7,13 @@ function Footer() {
       <div className="container max-w-screen-lg mx-auto">
         <div>
           <div className="flex flex-wrap justify-center gap-2">
+            <Tooltip message={"LinkedIn"}>
             <a
               href="https://linkedin.com/in/codeyabyab"
-              className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+              className="bg-stone-900 dark:bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
-                className="w-5 h-5 fill-current"
+                className="w-7 h-5 fill-current"
                 role="img"
                 viewBox="0 0 256 256"
                 xmlns="http://www.w3.org/2000/svg"
@@ -21,16 +23,18 @@ function Footer() {
                 </g>
               </svg>
             </a>
+            </Tooltip>
+            <Tooltip message={"GitHub"}>
             <a
               href="https://github.com/codeyabyab"
-              className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+              className="bg-stone-900 dark:bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 aria-hidden="true"
                 role="img"
-                className="w-5"
+                className="w-7 h-5"
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
@@ -44,6 +48,7 @@ function Footer() {
                 </g>
               </svg>
             </a>
+            </Tooltip>
           </div>
         </div>
       </div>
