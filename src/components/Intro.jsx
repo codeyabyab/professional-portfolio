@@ -10,7 +10,7 @@ function Intro() {
         Web Developer | Data Entry Specialist | Tech Professional
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
-        This is my bio
+       I'm a dynamic tech professional with a strong background in web development and back-office operations. I'm very passionate about contributing to innovative projects and initiatives that push the boundaries of technology.
       </p>
     </div>
   );
