@@ -1,20 +1,20 @@
 export default [
     {
-        title: "Company Based Inventory System",
-        imgUrl: "/assets/in-development.png",
+        title: "Company Inventory System",
+        imgUrl: "/assets/websites/nms-inventory-system.png",
         stack: ["Laravel", "React", "Material-UI", "MySQL"],
-        link: "",
+        link: "https://nms-inventory-system.vercel.app",
     },
     {
-        title: "Education-Based Notifier Web App",
-        imgUrl: "/assets/in-development.png",
+        title: "Alert System Web App",
+        imgUrl: "/assets/websites/acadcalendar.png",
         stack: ["HTML", "CSS", "JavaScript", "JQuery", "PHP", "MySQL"],
-        link: "",
+        link: "https://acadcalendar.vercel.app",
     },
     {
         title: "Business Portfolio",
-        imgUrl: "/assets/in-development.png",
+        imgUrl: "/assets/websites/min-portfolio.jpg",
         stack: [ "React", "Tailwind-CSS", "Vite"],
-        link: "",
+        link: "https://kobyabyab.vercel.app",
     },
 ]
