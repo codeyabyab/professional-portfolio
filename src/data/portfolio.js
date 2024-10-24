@@ -13,7 +13,7 @@ export default [
     },
     {
         title: "Business Portfolio",
-        imgUrl: "/assets/websites/min-portfolio.jpg",
+        imgUrl: "/assets/websites/min-portfolio.png",
         stack: [ "React", "Tailwind-CSS", "Vite"],
         link: "https://kobyabyab.vercel.app",
     },
