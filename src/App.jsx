@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Contribution from "./components/Contribution";
+import Certificate from "./components/Certificate";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -78,6 +79,7 @@ function App() {
           <Intro />
           <Portfolio />
           <Contribution/>
+          <Certificate/>
           <Timeline />
           <Contact />
           <Footer />
