@@ -9,7 +9,7 @@ function Contribution() {
       <Title>Projects & Companies Involved In</Title>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-          {contribution.map((project) => (
+          {contribution.slice(0, 6).map((project) => (
             <ContributionItem
               imgUrl={project.imgUrl}
               title={project.title}
